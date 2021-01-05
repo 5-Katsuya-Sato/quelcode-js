@@ -34,9 +34,9 @@ function ajax() {
 				document.getElementById('temperature').innerHTML = weather[0];
 				document.getElementById('feelslike').innerHTML = weather[1];
 				document.getElementById('humidity').innerHTML = weather[2];
-			} else {
-				'データの取得に失敗しました。時間を置いて再度お試しください'
 			}
+		} else {
+			alert('データの取得に失敗しました。時間を置いて再度お試しください');
 		}
 	}
 	ajax.send(null);
