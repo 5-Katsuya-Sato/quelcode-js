@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>現在の気象情報</h1>
+            </header>
+            <article>
+                <section class="city">
+                    <h2>都市を選択してください</h2>
+                    <select name="location" id="w-location" onchange="selectChange()">
+                        <option value="london">ロンドン</option>
+                        <option value="tokyo">東京</option>
+                        <option value="paris">パリ</option>
+                        <option value="new+york">ニューヨーク</option>
+                        <option value="indonesia">インドネシア</option>
+                    </select>
+                </section>
+                <section class="clock">
+                    <div id="time"></div>
+                </section>
+                <section class="weather">
+                    <div id="temperature" class="result"></div>
+                    <div id="feelslike" class="result"></div>
+                    <div id="humidity" class="result"></div>
+                </section>
+            </article>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
