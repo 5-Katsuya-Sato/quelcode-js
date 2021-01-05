@@ -1,0 +1,65 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+}
+
+h1 {
+	font-size: 35px;
+	padding-left: 5%;
+	border-bottom: solid 2px;
+}
+
+article {
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.city {
+	width: 100%;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	display: inline-block;
+}
+
+select {
+	width: 50%;
+	height: 30px;
+	background-color: bisque;
+	margin: 0 auto;
+	display: table;
+}
+
+.clock {
+	text-align: center;
+}
+
+#time {
+	font-size: 20px;
+	padding-top: 10px;
+	border-bottom: solid;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.weather {
+	width: 100%;
+}
+
+.result {
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
